@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/size_padding_16"
+    android:paddingRight="@dimen/size_padding_16"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/tvDot"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5.5dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/colorPrimary"
+        android:lineSpacingExtra="0dp"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/timestamp"
+            android:textSize="14sp"
+            android:id="@+id/tvTimesTamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/notecolor"
+            android:textSize="18sp"
+            android:id="@+id/tvNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
